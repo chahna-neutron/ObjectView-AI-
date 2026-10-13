@@ -3,7 +3,7 @@ import * as THREE from "https://esm.sh/three@0.180.0";
 import { GLTFLoader } from "https://esm.sh/three@0.180.0/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "https://esm.sh/three@0.180.0/examples/jsm/controls/OrbitControls.js";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://objectview-ai-production.up.railway.app";
 const MAX_IMAGE_SIZE = 10 * 1024 * 1024;
 
 const imageInput = document.getElementById("imageInput");
